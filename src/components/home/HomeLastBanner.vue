@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .bg {
-  background: url('@/assets/image/bg-5.jpg');
+  background: url('@/assets/image/couple-7.jpeg');
   background-color: rgba(0, 0, 0, 0);
   background-origin: initial;
   background-position: center top;

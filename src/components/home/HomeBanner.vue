@@ -76,7 +76,7 @@ export default {
 .counter {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  color: #3d3d3d;
+  color: #ddd;
   min-height: 250px;
 }
 

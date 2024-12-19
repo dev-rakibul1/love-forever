@@ -10,6 +10,11 @@
         <div
           class="absolute -bottom-4 left-4 w-3/4 h-8 bg-gradient-to-r from-pink-500 to-red-400 rounded-lg -z-10"
         ></div>
+
+        <!-- Circular Badge -->
+        <div class="about-badge hidden md:block">
+          <RoundedBadge />
+        </div>
       </div>
 
       <!-- Right Side - Content -->
@@ -24,7 +29,7 @@
 
         <!-- Heart Underline -->
         <div class="flex items-center mb-6">
-          <span class="w-16 h-px bg-red-800 inline-block"></span>
+          <span class="w-16 h-px bg-pink-500 inline-block"></span>
           <span class="mx-2 text-lg s-meta-lave">
             <svg
               fill="#ff0000"
@@ -53,7 +58,7 @@
               </g>
             </svg>
           </span>
-          <span class="w-16 h-px bg-red-800 inline-block"></span>
+          <span class="w-16 h-px bg-pink-500 inline-block"></span>
         </div>
 
         <!-- Paragraphs -->
@@ -70,7 +75,7 @@
 
         <!-- Signature -->
         <div>
-          <p class="text-red-800 font-bold text-lg italic">Joya Mike</p>
+          <p class="text-pink-500 font-bold text-lg italic meta__title">Joya Mike</p>
           <p class="text-gray-400 text-sm">Manager</p>
         </div>
       </div>
@@ -79,11 +84,24 @@
 </template>
 
 <script>
+import RoundedBadge from '@/shared/batch/RoundedBadge.vue'
+
 export default {
   name: 'BetterDatingSection',
+  components: {
+    RoundedBadge,
+  },
 }
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.about-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -70px;
+  margin-top: -70px;
+}
 </style>

@@ -1,13 +1,13 @@
 <template>
   <div class="soulmate-header">
     <!-- Title -->
-    <h2 class="title" :style="{ color: titleColor }">
+    <h2 class="title meta__title" :style="{ color: titleColor }">
       {{ title ? title : 'N/A' }}
     </h2>
 
     <!-- Heart Separator with Lines -->
     <div class="separator">
-      <span class="w-16 h-px bg-red-800 inline-block"></span>
+      <span class="w-16 h-px bg-pink-500 inline-block"></span>
       <span class="mx-2 text-lg s-meta-lave">
         <svg
           fill="#ff0000"
@@ -34,7 +34,7 @@
           </g>
         </svg>
       </span>
-      <span class="w-16 h-px bg-red-800 inline-block"></span>
+      <span class="w-16 h-px bg-pink-500 inline-block"></span>
     </div>
 
     <!-- Description -->
@@ -63,20 +63,21 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 /* General container styling */
 .soulmate-header {
   text-align: center;
-  font-family: Arial, sans-serif;
   padding: 20px 10px;
 }
 
 /* Title Styling */
 .title {
   font-size: 32px;
-  font-family: 'Dancing Script', cursive; /* Add this font via Google Fonts */
   font-weight: bold;
   margin-bottom: 10px;
   color: #222; /* Blackish text */
+  word-spacing: 1px;
+  letter-spacing: 3px;
 }
 
 /* Separator Styling */
@@ -91,7 +92,7 @@ export default {
   display: inline-block;
   width: 60px;
   height: 2px;
-  background-color: #ffc107; /* Yellow Color */
+  background-color: red; /* Yellow Color */
 }
 
 .line.right {
@@ -100,7 +101,7 @@ export default {
 
 .heart {
   margin: 0 10px;
-  color: #ffc107; /* Yellow Heart */
+  color: red; /* Yellow Heart */
   font-size: 20px;
 }
 

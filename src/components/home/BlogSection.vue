@@ -18,24 +18,26 @@
             alt="Blog Image"
             class="w-full h-48 object-cover rounded-t-md"
           />
-          <div class="absolute top-0 right-0 bg-red-800 text-white p-3 text-center font-semibold">
+          <div class="absolute top-0 right-0 bg-pink-500 text-white p-3 text-center font-semibold">
             <span class="text-2xl">27</span><br />
             <span class="uppercase text-sm">Mar</span>
           </div>
           <div class="p-6">
             <div class="flex items-center text-gray-500 mb-2 text-sm">
               <span class="flex items-center mr-4">
-                <span class="text-red-800 mr-1"><i class="fa-solid fa-lock"></i></span> Admin
+                <span class="text-pink-500 mr-1"><i class="fa-solid fa-lock"></i></span> Admin
               </span>
-              <span class=""><i class="fa-regular fa-heart text-red-800"></i> 98 Like</span>
-              <span class="ml-4"><i class="fa-regular fa-comments text-red-800"></i> Comments</span>
+              <span class=""><i class="fa-regular fa-heart text-pink-500"></i> 98 Like</span>
+              <span class="ml-4"
+                ><i class="fa-regular fa-comments text-pink-500"></i> Comments</span
+              >
             </div>
             <h3 class="text-xl font-bold text-gray-800 mb-2">INTENTIONS THAT ENERGIZE YOU</h3>
             <p class="text-gray-600 text-sm mb-4">
               Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia
               in, elementum id enim.
             </p>
-            <a href="#" class="text-red-800 font-medium">Read More...</a>
+            <a href="#" class="text-pink-500 font-medium">Read More...</a>
           </div>
         </div>
 
@@ -46,24 +48,26 @@
             alt="Blog Image"
             class="w-full h-48 object-cover rounded-t-md"
           />
-          <div class="absolute top-0 right-0 bg-red-800 text-white p-3 text-center font-semibold">
+          <div class="absolute top-0 right-0 bg-pink-500 text-white p-3 text-center font-semibold">
             <span class="text-2xl">27</span><br />
             <span class="uppercase text-sm">Mar</span>
           </div>
           <div class="p-6">
             <div class="flex items-center text-gray-500 mb-2 text-sm">
               <span class="flex items-center mr-4">
-                <span class="text-red-800 mr-1"><i class="fa-solid fa-lock"></i></span> Admin
+                <span class="text-pink-500 mr-1"><i class="fa-solid fa-lock"></i></span> Admin
               </span>
-              <span class=""><i class="fa-regular fa-heart text-red-800"></i> 98 Like</span>
-              <span class="ml-4"><i class="fa-regular fa-comments text-red-800"></i> Comments</span>
+              <span class=""><i class="fa-regular fa-heart text-pink-500"></i> 98 Like</span>
+              <span class="ml-4"
+                ><i class="fa-regular fa-comments text-pink-500"></i> Comments</span
+              >
             </div>
             <h3 class="text-xl font-bold text-gray-800 mb-2">A BRIEF HISTORY OF CREATION</h3>
             <p class="text-gray-600 text-sm mb-4">
               Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia
               in, elementum id enim.
             </p>
-            <a href="#" class="text-red-800 font-medium">Read More...</a>
+            <a href="#" class="text-pink-500 font-medium">Read More...</a>
           </div>
         </div>
 
@@ -74,24 +78,26 @@
             alt="Blog Image"
             class="w-full h-48 object-cover rounded-t-md"
           />
-          <div class="absolute top-0 right-0 bg-red-800 text-white p-3 text-center font-semibold">
+          <div class="absolute top-0 right-0 bg-pink-500 text-white p-3 text-center font-semibold">
             <span class="text-2xl">27</span><br />
             <span class="uppercase text-sm">Mar</span>
           </div>
           <div class="p-6">
             <div class="flex items-center text-gray-500 mb-2 text-sm">
               <span class="flex items-center mr-4">
-                <span class="text-red-800 mr-1"><i class="fa-solid fa-lock"></i></span> Admin
+                <span class="text-pink-500 mr-1"><i class="fa-solid fa-lock"></i></span> Admin
               </span>
-              <span class=""><i class="fa-regular fa-heart text-red-800"></i> 98 Like</span>
-              <span class="ml-4"><i class="fa-regular fa-comments text-red-800"></i> Comments</span>
+              <span class=""><i class="fa-regular fa-heart text-pink-500"></i> 98 Like</span>
+              <span class="ml-4"
+                ><i class="fa-regular fa-comments text-pink-500"></i> Comments</span
+              >
             </div>
             <h3 class="text-xl font-bold text-gray-800 mb-2">A BRIEF HISTORY OF CREATION</h3>
             <p class="text-gray-600 text-sm mb-4">
               Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia
               in, elementum id enim.
             </p>
-            <a href="#" class="text-red-800 font-medium">Read More...</a>
+            <a href="#" class="text-pink-500 font-medium">Read More...</a>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
               <img
                 src="@/assets/image/01.png"
                 alt="Create Profile"
-                class="w-24 h-24 rounded-full bg-yellow-200 p-4"
+                class="w-24 h-24 rounded-full bg-red-200 p-4"
               />
             </div>
             <h3 class="text-lg font-bold uppercase mb-2">Create Profile</h3>
@@ -45,7 +45,7 @@
               <img
                 src="@/assets/image/01.png"
                 alt="Start Dating"
-                class="w-24 h-24 rounded-full bg-red-800 p-4"
+                class="w-24 h-24 rounded-full bg-pink-500 p-4"
               />
             </div>
             <h3 class="text-lg font-bold uppercase mb-2">Start Dating</h3>

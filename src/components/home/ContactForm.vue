@@ -13,14 +13,14 @@
       >
         <!-- Email -->
         <div class="flex flex-col items-center mb-6 md:mb-0">
-          <div class="text-red-800 text-3xl mb-2">
+          <div class="text-pink-500 text-3xl mb-2">
             <i class="fas fa-desktop"></i>
           </div>
           <p class="text-gray-300">somemail@mail.com</p>
         </div>
         <!-- Address -->
         <div class="flex flex-col items-center mb-6 md:mb-0">
-          <div class="text-red-800 text-3xl mb-2">
+          <div class="text-pink-500 text-3xl mb-2">
             <i class="fas fa-home"></i>
           </div>
           <p class="text-gray-300">
@@ -30,7 +30,7 @@
         </div>
         <!-- Phone -->
         <div class="flex flex-col items-center mb-6 md:mb-0">
-          <div class="text-red-800 text-3xl mb-2">
+          <div class="text-pink-500 text-3xl mb-2">
             <i class="fas fa-phone"></i>
           </div>
           <p class="text-gray-300">+000 - 123 - 456 - 789</p>
@@ -40,7 +40,7 @@
       <!-- Contact Form -->
       <div class="text-center">
         <h2 class="text-lg font-semibold tracking-wide mb-2">WE LOVE TALKING</h2>
-        <div class="w-12 h-1 bg-red-800 mx-auto mb-6"></div>
+        <div class="w-12 h-1 bg-pink-500 mx-auto mb-6"></div>
       </div>
       <form @submit.prevent="handleSubmit">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-4">

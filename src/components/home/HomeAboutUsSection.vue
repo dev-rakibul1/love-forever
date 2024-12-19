@@ -21,7 +21,7 @@
 
           <!-- Heart Underline -->
           <div class="flex items-center mb-6">
-            <span class="w-16 h-px bg-red-800 inline-block"></span>
+            <span class="w-16 h-px bg-pink-500 inline-block"></span>
             <span class="mx-2 text-lg s-meta-lave">
               <svg
                 fill="#ff0000"
@@ -48,7 +48,7 @@
                 </g>
               </svg>
             </span>
-            <span class="w-16 h-px bg-red-800 inline-block"></span>
+            <span class="w-16 h-px bg-pink-500 inline-block"></span>
           </div>
           <!-- Paragraph -->
           <p class="text-gray-600 mb-4 leading-relaxed">
@@ -64,7 +64,7 @@
           <!-- Name Section -->
           <div class="mb-6">
             <p class="font-semibold text-gray-800">Ethan Valentine</p>
-            <p class="text-red-800 font-medium">Sophia Rosewood</p>
+            <p class="text-pink-500 font-medium">Sophia Rosewood</p>
           </div>
         </div>
 
@@ -74,7 +74,7 @@
             <div
               class="w-16 h-16 rounded-full border-2 border-red-600 flex items-center justify-center mb-2"
             >
-              <i class="fas fa-user-shield text-red-800 text-2xl"></i>
+              <i class="fas fa-user-shield text-pink-500 text-2xl"></i>
             </div>
             <p class="font-semibold text-gray-700">100% Privacy</p>
           </div>
@@ -83,7 +83,7 @@
             <div
               class="w-16 h-16 rounded-full border-2 border-red-600 flex items-center justify-center mb-2"
             >
-              <i class="fas fa-check-circle text-red-800 text-2xl"></i>
+              <i class="fas fa-check-circle text-pink-500 text-2xl"></i>
             </div>
             <p class="font-semibold text-gray-700">Verified Profile</p>
           </div>
@@ -92,7 +92,7 @@
             <div
               class="w-16 h-16 rounded-full border-2 border-red-600 flex items-center justify-center mb-2"
             >
-              <i class="fas fa-shield-alt text-red-800 text-2xl"></i>
+              <i class="fas fa-shield-alt text-pink-500 text-2xl"></i>
             </div>
             <p class="font-semibold text-gray-700">100% Privacy</p>
           </div>

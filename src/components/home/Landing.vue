@@ -5,12 +5,12 @@
       <div
         class="max-auto w-full md:w-[70%] flex items-center justify-center flex-col text-white min-h-full py-24 md:py-44 h-screen"
       >
-        <h1 class="text-3xl md:text-8xl meta__title" style="font-family: 'Dancing Script', cursive">
-          Suntina & Famico
-        </h1>
-        <p class="mt-6 landing__para text-white tracking-wider" style="letter-spacing: 3px">
-          Under the same moon we once admired together, now I sit in silence, holding onto memories
-          that feel too far away.
+        <h1 class="text-5xl md:text-8xl meta__title">Two Souls, One Love</h1>
+        <p
+          class="mt-6 landing__para text-white tracking-wider meta__title text-2xl md:text-3xl text-center"
+          style="letter-spacing: 3px"
+        >
+          Under the same moon, I cherish distant memories in silence.
         </p>
       </div>
     </div>
@@ -24,6 +24,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .landing__para {
   position: relative;
 }

@@ -43,22 +43,24 @@ p {
 }
 
 svg {
-  background: 'red';
-  fill: red !important;
+  background: '#DB6574';
+  fill: #db6574 !important;
   width: 50px;
 }
 
 .logo svg {
   width: 40px !important;
 }
-.counter.fancy .love-icon path {
-  fill: #ffbc05; /* Change the color of the heart */
-}
 
 .s-meta-lave svg {
   width: 20px;
   height: auto;
   z-index: 0;
+}
+
+.drawer-button svg {
+  width: 30px;
+  height: auto;
 }
 
 .home-love-shape {
@@ -81,4 +83,9 @@ svg {
   50% {
     transform: rotate(3deg); /* Slightly sway to one side */
   }
+}
+
+.btn:hover {
+  background-color: none;
+  background: none;
 }

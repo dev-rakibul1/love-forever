@@ -29,20 +29,17 @@
                 />
                 <!-- Gold Pin -->
                 <div
-                  class="absolute -top-3 left-1/2 -translate-x-1/2 w-8 h-8 bg-red-800 rounded-full border-4 border-white"
+                  class="absolute -top-3 left-1/2 -translate-x-1/2 w-8 h-8 bg-pink-500 rounded-full border-4 border-white"
                 ></div>
               </div>
 
               <!-- Right Content -->
-              <div class="ml-10">
+              <div class="ml-10 pt-12 md:pt-0">
                 <!-- Heading -->
-                <h2 class="text-xs font-semibold text-red-800 tracking-wide mb-2 leading-none">
+                <h2 class="text-xs font-semibold text-pink-500 tracking-wide mb-2 leading-none">
                   Happy 1st
                 </h2>
-                <h1
-                  class="text-3xl font-bold text-red-800 mb-6"
-                  style="font-family: 'Dancing Script', cursive"
-                >
+                <h1 class="text-3xl font-bold text-pink-500 mb-6 meta__title">
                   {{ qt.title }}
                 </h1>
 
@@ -53,7 +50,7 @@
 
                 <!-- Divider with Leaf -->
                 <div class="flex items-center justify-center my-1">
-                  <span class="w-16 h-px bg-red-800 inline-block"></span>
+                  <span class="w-16 h-px bg-pink-500 inline-block"></span>
                   <span class="mx-2 text-lg s-meta-lave">
                     <svg
                       fill="#ff0000"
@@ -84,13 +81,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span class="w-16 h-px bg-red-800 inline-block"></span>
+                  <span class="w-16 h-px bg-pink-500 inline-block"></span>
                 </div>
 
-                <!-- Website Link -->
+                <!-- date Link -->
                 <div class="text-center">
-                  <span class="text-red-800 text-xs font-normal hover:underline text-center">
-                    {{ qt?.eventTime }}</span
+                  <span class="text-pink-500 text-xs font-normal hover:underline text-center">
+                    {{ formatDateWrapper(qt?.eventTime) }}</span
                   >
                 </div>
               </div>
@@ -114,6 +111,7 @@
 </template>
 
 <script>
+import { formatDate } from '@/utils/DateConvert'
 import HomeLastBanner from '../home/HomeLastBanner.vue'
 
 export default {
@@ -141,11 +139,17 @@ export default {
     viewDetails(id) {
       this.$router.push({ name: 'CartDetails', params: { id } })
     },
+
+    formatDateWrapper(date) {
+      // Log or process if needed
+      return formatDate(date)
+    },
   },
 }
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .bg-beige {
   background-color: #f2e9e2; /* Beige Background */
 }
